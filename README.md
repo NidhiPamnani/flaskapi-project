@@ -6,7 +6,7 @@ Originally, this API was part of an internal automation project for Emirates Gro
 For confidentiality, all sensitive data and connections have been replaced with hardcoded JSON sample data in this public version.
 
 Tech Stack
-- Python 3.x
+- Python
 - Flask – Web framework for building the REST API
 - MariaDB – Relational database (mocked with local JSON in this demo)
 - Flask-MySQL Connector / SQLAlchemy (depending on implementation)
