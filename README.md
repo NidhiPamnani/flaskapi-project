@@ -1,7 +1,18 @@
 # flaskapi-project
 
-This is a basic flaskapi code for me to keep track of my internship progress.
-The Emirates internship uses MariaDB an dmy cod euses SQL, so I will make changes here as necessary
 
+This project is a simplified demonstration of a Flask API used to perform Create, Read, Update, and Delete (CRUD) operations on a MariaDB database.
+Originally, this API was part of an internal automation project for Emirates Group IT to securely transfer newly encrypted data from a repository into the queries database in MariaDB.
+For confidentiality, all sensitive data and connections have been replaced with hardcoded JSON sample data in this public version.
 
-create a .venv for the project 
+Tech Stack
+- Python 3.x
+- Flask – Web framework for building the REST API
+- MariaDB – Relational database (mocked with local JSON in this demo)
+- Flask-MySQL Connector / SQLAlchemy (depending on implementation)
+
+Features
+- GET – Retrieve data records from the database
+- POST – Add new records to the database
+- DELETE – Remove records from the database
+- Modular code structure for easy extension and integration with larger systems
