@@ -16,3 +16,7 @@ Features
 - POST – Add new records to the database
 - DELETE – Remove records from the database
 - Modular code structure for easy extension and integration with larger systems
+
+Notes
+- In the original Emirates project, this API pulled encrypted data from a secure repository and inserted it into MariaDB tables for operational use.
+- This version uses mock data and excludes all proprietary business logic, credentials, and configurations.
