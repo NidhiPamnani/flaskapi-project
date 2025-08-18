@@ -19,4 +19,4 @@ Features
 
 Notes
 - In the original Emirates project, this API pulled encrypted data from a secure repository and inserted it into MariaDB tables for operational use.
-- This version uses mock data and excludes all proprietary business logic, credentials, and configurations.
+- This version uses mock data and excludes all sensitive data.
